@@ -1,0 +1,58 @@
+import '../models/perfume.dart';
+
+final List<Perfume> mockPerfumes = [
+  const Perfume(
+    id: '1',
+    name: 'Midnight Bloom',
+    brand: 'AURA',
+    description: 'A captivating blend of dark orchids and rich vanilla, creating a mysterious and unforgettable signature scent for the evening.',
+    price: 125.0,
+    imageUrl: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80',
+    notes: ['Dark Orchid', 'Vanilla', 'Sandalwood', 'Black Plum'],
+  ),
+  const Perfume(
+    id: '2',
+    name: 'Oceanic Breeze',
+    brand: 'LUMIÈRE',
+    description: 'Crisp and refreshing, capturing the essence of the sea breeze with hints of citrus and driftwood.',
+    price: 95.0,
+    imageUrl: 'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=800&q=80',
+    notes: ['Sea Salt', 'Bergamot', 'Driftwood', 'White Musk'],
+  ),
+  const Perfume(
+    id: '3',
+    name: 'Rose & Oud',
+    brand: 'MAISON CLASSIQUE',
+    description: 'A luxurious and timeless combination of Damask rose and precious agarwood.',
+    price: 180.0,
+    imageUrl: 'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=800&q=80',
+    notes: ['Damask Rose', 'Oud', 'Amber', 'Patchouli'],
+  ),
+  const Perfume(
+    id: '4',
+    name: 'Citrus Sun',
+    brand: 'AURA',
+    description: 'Bright and energetic, featuring a burst of Sicilian lemon and sweet orange blossom.',
+    price: 85.0,
+    imageUrl: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80',
+    notes: ['Sicilian Lemon', 'Orange Blossom', 'Neroli', 'Cedar'],
+  ),
+  const Perfume(
+    id: '5',
+    name: 'Velvet Woods',
+    brand: 'LUMIÈRE',
+    description: 'Deep, earthy, and warm. An enveloping fragrance with hints of leather and vetiver.',
+    price: 145.0,
+    imageUrl: 'https://images.unsplash.com/photo-1587496679742-bad502958fbc?auto=format&fit=crop&w=800&q=80',
+    notes: ['Vetiver', 'Leather', 'Oakmoss', 'Cardamom'],
+  ),
+  const Perfume(
+    id: '6',
+    name: 'Peony Blush',
+    brand: 'MAISON CLASSIQUE',
+    description: 'Soft and romantic, delicate peony petals mixed with juicy red apple.',
+    price: 110.0,
+    imageUrl: 'https://images.unsplash.com/photo-1595425970377-c9703cc48a7c?auto=format&fit=crop&w=800&q=80',
+    notes: ['Peony', 'Red Apple', 'Jasmine', 'Suede'],
+  ),
+];
